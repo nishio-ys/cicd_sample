@@ -2,6 +2,7 @@ version: '3.8'
 services:
   db:
     image: mysql:8.0
+    container_name: docker_mysql_db_1
     restart: always
     environment:
       MYSQL_DATABASE: fap_db
